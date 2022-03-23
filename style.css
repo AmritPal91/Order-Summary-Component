@@ -1,0 +1,112 @@
+body{
+  margin: 0px;
+  text-align: center;
+  background-color: hsl(225, 100%, 94%);
+}
+h1{
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 20px;
+
+}
+h2{
+  font-size: 12px;
+  font-weight: 900;
+  display: inline-block;
+  position: relative;
+  right: 38px;
+  top: 3px;
+  width: 90px;
+}
+p{
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  font-weight: 500;
+  width: 250px;
+  margin: 0px auto 20px;
+}
+/**************Classes****************/
+.music-img{
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  height: 170px;
+  width: 330px;
+}
+.main-box{
+  background-color: white;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  font-family: 'Red Hat Display', sans-serif;
+  position: absolute;
+  top: 60px;
+  right: 490px;
+  width: 330px;
+}
+.annual-plan{
+  background-color:  hsl(225, 100%, 98%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: auto;
+  height: 60px;
+  width: 270px;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 8px #666666;
+  -moz-box-shadow: 0px 3px 8px #666666;
+  box-shadow: 0px 3px 8px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  background: hsl(245, 75%, 52%);
+  padding: 10px 75px 10px 75px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7976cc;
+  text-decoration: none;
+}
+.btn-space{
+  padding-top: 30px;
+}
+.music-icon{
+  height: 40px;
+  width: 40px;
+  padding-left: 13px;
+  padding-top: 10px;
+  float: left;
+}
+.price{
+  font-size: 12px;
+  position: relative;
+  right: 37px;
+  bottom: 3px;
+  width: 90px;
+}
+.change{
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.change:hover{
+  color: black;
+}
+.cancel-space{
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: hsl(224, 23%, 55%);
+}
+.cancel:hover{
+  color: black;
+}

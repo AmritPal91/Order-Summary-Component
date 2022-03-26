@@ -3,34 +3,40 @@ body{
   text-align: center;
   background-color: hsl(225, 100%, 94%);
 }
+main{
+  position: absolute;
+top: 165px;
+left: 494.5px;
+bottom: 165px;
+}
 h1{
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 900;
   padding-top: 20px;
-
 }
 h2{
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 900;
   display: inline-block;
   position: relative;
-  right: 38px;
-  top: 3px;
-  width: 90px;
+  right: 31px;
+  top: 7px;
+  width: 100px;
 }
 p{
   color: hsl(224, 23%, 55%);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  width: 250px;
+  width: 260px;
   margin: 0px auto 20px;
 }
+
 /**************Classes****************/
 .music-img{
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-  height: 170px;
-  width: 330px;
+  height: 200px;
+  width: 360px;
 }
 .main-box{
   background-color: white;
@@ -39,10 +45,8 @@ p{
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
   font-family: 'Red Hat Display', sans-serif;
-  position: absolute;
-  top: 60px;
-  right: 490px;
-  width: 330px;
+  height: 570px;
+  width: 360px;
 }
 .annual-plan{
   background-color:  hsl(225, 100%, 98%);
@@ -51,8 +55,8 @@ p{
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin: auto;
-  height: 60px;
-  width: 270px;
+  height: 75px;
+  width: 290px;
 }
 .btn {
   -webkit-border-radius: 10;
@@ -63,7 +67,7 @@ p{
   box-shadow: 0px 3px 8px #666666;
   font-family: Arial;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   background: hsl(245, 75%, 52%);
   padding: 10px 75px 10px 75px;
@@ -78,33 +82,33 @@ p{
   padding-top: 30px;
 }
 .music-icon{
-  height: 40px;
-  width: 40px;
-  padding-left: 13px;
-  padding-top: 10px;
+  height: 45px;
+  width: 45px;
+  padding-left: 16px;
+  padding-top: 15px;
   float: left;
 }
 .price{
-  font-size: 12px;
+  font-size: 15px;
   position: relative;
-  right: 37px;
-  bottom: 3px;
-  width: 90px;
+  right: 28px;
+  bottom: 4px;
+  width: 100px;
 }
 .change{
   position: relative;
-  top: 10px;
-  font-size: 12px;
+  top: 13px;
+  right: 5px;
+  font-size: 14px;
   font-weight: 700;
 }
 .change:hover{
   color: black;
 }
 .cancel-space{
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   padding-top: 30px;
-  padding-bottom: 30px;
   color: hsl(224, 23%, 55%);
 }
 .cancel:hover{

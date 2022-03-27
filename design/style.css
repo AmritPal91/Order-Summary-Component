@@ -110,6 +110,9 @@ p{
   padding-top: 30px;
   color: hsl(224, 23%, 55%);
 }
+.cancel{
+  color: grey;
+}
 .cancel:hover{
   color: black;
 }

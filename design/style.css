@@ -12,7 +12,7 @@ h2{
   display: inline-block;
   position: relative;
   right: 31px;
-  top: 7px;
+  top: 6px;
   width: 100px;
 }
 p{
@@ -83,23 +83,24 @@ p{
   padding-top: 30px;
 }
 .music-icon{
-  height: 45px;
-  width: 45px;
+  height: 41px;
+  width: 41px;
   padding-left: 16px;
-  padding-top: 15px;
+  padding-top: 18px;
   float: left;
 }
 .price{
   font-size: 15px;
   position: relative;
-  right: 28px;
+  right: 29px;
   bottom: 4px;
   width: 100px;
+  opacity: 80%;
 }
 .change{
   position: relative;
   top: 13px;
-  right: 5px;
+  left: 21px;
   font-size: 14px;
   font-weight: 700;
 }
@@ -119,7 +120,7 @@ p{
   color: black;
 }
 /************ Mobile viw *************/
-@media (max-width: 400px){
+@media (max-width: 412px){
   *{
     box-sizing:border-box;
   }
@@ -129,7 +130,6 @@ p{
   }
     .bg-img{
       width: 100vw;
-      height: 40vh;
     }
     .main-box{
     width: 325px;
